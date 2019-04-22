@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-		public void GoChapterScene()
-		{
-			SceneManager.LoadScene("Chapter");
-		}
+    public void GoChapterScene()
+	{
+		SceneManager.LoadScene("Chapter");
+	}
 
-		public void GoAnimationScene()
-		{
-			SceneManager.LoadScene("Animation");
-		}
+	public void GoAnimationScene()
+	{
+		SceneManager.LoadScene("Animation");
+	}
 }
