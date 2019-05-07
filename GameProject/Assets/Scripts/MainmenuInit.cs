@@ -7,11 +7,13 @@ public class MainmenuInit : MonoBehaviour {
     private GameObject[] effectAudioSource;
     // Use this for initialization
     void Start () {
+        Debug.Log("Gameinit");
         BGMAudioSource = GameObject.FindGameObjectWithTag("BGM").GetComponent<AudioSource>();
         effectAudioSource = GameObject.FindGameObjectsWithTag("Effect");
         BGMAudioSource.volume = Setting.BGMVolume;
         foreach (var e in effectAudioSource)
             e.GetComponent<AudioSource>().volume = Setting.EffectVolume;
+        
     }
 	
 }

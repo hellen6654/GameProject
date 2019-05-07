@@ -1,6 +1,9 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "Custom/ColorAdjustEffect" {
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/ColorAdjustEffect" 
+{
 	Properties 
 	{
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
@@ -40,11 +43,8 @@ Shader "Custom/ColorAdjustEffect" {
 					fixed3 finalColor = renderTex * _Brightness;
 					fixed gray = 0.2125 * renderTex.r + 0.7154 * renderTex.g + 0.0721 * renderTex.b;
 					fixed3 grayColor = fixed3(gray, gray, gray);
-					//根据Saturation在饱和度最低的图像和原图之间差值
 					finalColor = lerp(grayColor, finalColor, _Saturation);
-					//contrast对比度：首先计算对比度最低的值
 					fixed3 avgColor = fixed3(0.5, 0.5, 0.5);
-					//根据Contrast在对比度最低的图像和原图之间差值
 					finalColor = lerp(avgColor, finalColor, _Contrast);
 
 					return fixed4(finalColor, renderTex.a);
