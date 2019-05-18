@@ -9,6 +9,7 @@ public class Setting: MonoBehaviour {
     private AudioSource BGMAudioSource;
     private GameObject[] effectAudioSource;
     private GameObject livingCamera;
+    private float GrammaOffset=0.1f;
     public void BGMVolumeChanged(float v)
     {
         BGMAudioSource = GameObject.FindGameObjectWithTag("BGM").GetComponent<AudioSource>(); 
@@ -28,8 +29,8 @@ public class Setting: MonoBehaviour {
     }
     public void GrammaChanged(float v)
     {
-        Debug.Log("Gramma:" + v.ToString());
-        Gramma = v ;
+        Debug.Log("Gramma:" + v.ToString() + '+' + GrammaOffset.ToString());
+        Gramma = v + GrammaOffset;
         livingCamera = GameObject.FindGameObjectWithTag("MainCamera");
         livingCamera.GetComponent<ColorAdjustEffect>().brightness = Gramma; 
         //把攝影機底下的ColorAdjustEffect的亮度改成Gramma
