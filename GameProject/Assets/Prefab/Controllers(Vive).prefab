@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 114490683604223724}
   - component: {fileID: 114997250019890998}
   - component: {fileID: 114343216081218558}
+  - component: {fileID: 114845025907196058}
   m_Layer: 0
   m_Name: LeftController(Vive)
   m_TagString: Untagged
@@ -73,6 +74,7 @@ GameObject:
   - component: {fileID: 114266369801020422}
   - component: {fileID: 114203421075673294}
   - component: {fileID: 114572385645980952}
+  - component: {fileID: 114381766399142252}
   m_Layer: 0
   m_Name: RightController(Vive)
   m_TagString: Untagged
@@ -309,6 +311,18 @@ MonoBehaviour:
   uiClickPressed: 0
   menuPressed: 0
   controllerVisible: 1
+--- !u!114 &114381766399142252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1897107308773906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e104da36bd3b04b90c6ae969ac66dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customColliderContainer: {fileID: 0}
 --- !u!114 &114415075705326400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -376,6 +390,18 @@ MonoBehaviour:
   canClickOnHover: 0
   autoActivatingCanvas: {fileID: 0}
   collisionClick: 0
+--- !u!114 &114845025907196058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1441547878382872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e104da36bd3b04b90c6ae969ac66dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customColliderContainer: {fileID: 0}
 --- !u!114 &114997250019890998
 MonoBehaviour:
   m_ObjectHideFlags: 1

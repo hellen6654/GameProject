@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114696459478249356}
   - component: {fileID: 114006308843561418}
   - component: {fileID: 114029393100413818}
+  - component: {fileID: 114665122325318092}
   m_Layer: 0
   m_Name: RightController(Sim)
   m_TagString: Untagged
@@ -56,6 +57,7 @@ GameObject:
   - component: {fileID: 114690830672151524}
   - component: {fileID: 114211506628741972}
   - component: {fileID: 114189908381121012}
+  - component: {fileID: 114662193700520128}
   m_Layer: 0
   m_Name: LeftController(Sim)
   m_TagString: Untagged
@@ -332,6 +334,30 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - CanTeleport
+--- !u!114 &114662193700520128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612468814424252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e104da36bd3b04b90c6ae969ac66dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customColliderContainer: {fileID: 0}
+--- !u!114 &114665122325318092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1175554915615622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e104da36bd3b04b90c6ae969ac66dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customColliderContainer: {fileID: 0}
 --- !u!114 &114690830672151524
 MonoBehaviour:
   m_ObjectHideFlags: 1

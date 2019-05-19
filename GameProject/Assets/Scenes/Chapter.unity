@@ -343,7 +343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &118046916
 Transform:
   m_ObjectHideFlags: 0
@@ -555,7 +555,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_Name
-      value: bookOne (1)
+      value: bookOne1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
@@ -1500,6 +1500,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &576397325 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
+  m_PrefabInternal: {fileID: 1235458907}
+--- !u!65 &576397327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576397325}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000005, z: 0.019999994}
+  m_Center: {x: -0.000000030267984, y: -9.313224e-10, z: -0.000000029802322}
+--- !u!114 &576397328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576397325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 1
+  touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 0
+  holdButtonToGrab: 0
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 0}
+  secondaryGrabActionScript: {fileID: 0}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!1001 &613157484
 Prefab:
   m_ObjectHideFlags: 0
@@ -1566,6 +1612,139 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &673885375 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
+  m_PrefabInternal: {fileID: 2145980630}
+--- !u!65 &673885377
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673885375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000005, z: 0.019999994}
+  m_Center: {x: 0.0000000013969839, y: -9.313224e-10, z: -0.000000029802322}
+--- !u!114 &673885378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673885375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 1
+  touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 0
+  holdButtonToGrab: 0
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 0}
+  secondaryGrabActionScript: {fileID: 0}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
+--- !u!1 &707362213 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
+  m_PrefabInternal: {fileID: 201883684}
+--- !u!114 &707362214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707362213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e2e7c991ef4604498c54b06ede8b6fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnControllerStartTouchInteractableObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnControllerTouchInteractableObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnControllerStartUntouchInteractableObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnControllerUntouchInteractableObject:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnControllerRigidbodyActivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  OnControllerRigidbodyDeactivated:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: VRTK.UnityEventHelper.VRTK_InteractTouch_UnityEvents+ObjectInteractEvent,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+--- !u!65 &707362215
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707362213}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000005, z: 0.019999998}
+  m_Center: {x: -4.656613e-10, y: -9.313224e-10, z: -0.000000014901161}
+--- !u!114 &707362216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707362213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 1
+  touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 0
+  holdButtonToGrab: 0
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 0}
+  secondaryGrabActionScript: {fileID: 0}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!1001 &712650349
 Prefab:
   m_ObjectHideFlags: 0
@@ -1628,6 +1807,10 @@ Prefab:
     - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
+      propertyPath: m_Name
+      value: bookOne (0)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
@@ -2646,7 +2829,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_Name
-      value: bookOne (52)
+      value: bookOne52
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
@@ -3193,6 +3376,52 @@ GameObject:
   m_PrefabParentObject: {fileID: 1784232561386070, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
     type: 2}
   m_PrefabInternal: {fileID: 1760802002}
+--- !u!1 &1399860864 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
+  m_PrefabInternal: {fileID: 1815617794}
+--- !u!65 &1399860866
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1399860864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000007, y: 0.020000005, z: 0.019999996}
+  m_Center: {x: -0.000000015366822, y: -9.313224e-10, z: -0.000000029802322}
+--- !u!114 &1399860867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1399860864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 1
+  touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 0
+  holdButtonToGrab: 0
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 0}
+  secondaryGrabActionScript: {fileID: 0}
+  isUsable: 0
+  holdButtonToUse: 1
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 0
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!1001 &1415698930
 Prefab:
   m_ObjectHideFlags: 0
@@ -4120,12 +4349,12 @@ Prefab:
         type: 2}
       propertyPath: setups.Array.data[0]
       value: 
-      objectReference: {fileID: 2105608898}
+      objectReference: {fileID: 1092664446}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: setups.Array.data[1]
       value: 
-      objectReference: {fileID: 1092664446}
+      objectReference: {fileID: 2105608898}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03c33d5289c729a4f96cb47e95a7c2b1, type: 2}
   m_IsPrefabParent: 0
@@ -4454,7 +4683,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_Name
-      value: bookOne (20)
+      value: bookOne20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
@@ -5331,7 +5560,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_Name
-      value: bookOne (31)
+      value: bookOne31
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
