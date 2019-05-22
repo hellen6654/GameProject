@@ -130,7 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeTillFade: 0
   blinkTransitionSpeed: 0.1
-  fadeColor: {r: 1, g: 1, b: 1, a: 1}
+  fadeColor: {r: 0.5955882, g: 0, b: 0, a: 1}
   headsetCollision: {fileID: 0}
   headsetFade: {fileID: 0}
 --- !u!114 &114311020531128326

@@ -5,7 +5,12 @@ using UnityEngine.UI;
 public class Setting: MonoBehaviour {
     static public float BGMVolume = 0.5f;       //BGM音量預設50%
     static public float EffectVolume = 0.5f;    //音效音量預設50%
-    static public float Gramma = 0.25f;         //亮度預設50%
+    static public float Gramma = 0.01f;         //亮度預設1%
+    static public bool isVive = false;          //是否使用模擬器
+    static public bool isBook1Finish = false;   //是否第一本書已經看過
+    static public bool isBook2Finish = false;   //是否第二本書已經看過
+    static public bool isBook3Finish = false;   //是否第三本書已經看過
+    static public bool isBook4Finish = false;   //是否第四本書已經看過
     private AudioSource BGMAudioSource;
     private GameObject[] effectAudioSource;
     private GameObject livingCamera;

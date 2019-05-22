@@ -8,6 +8,8 @@ TagManager:
   - Effect
   - Light
   - CanTeleport
+  - Controller(Sim)
+  - Controller(Vive)
   layers:
   - Default
   - TransparentFX
