@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 114895196397910706}
   - component: {fileID: 114000811503144858}
   - component: {fileID: 114157985896418222}
+  - component: {fileID: 114062463828427696}
   m_Layer: 0
   m_Name: Headset
   m_TagString: Untagged
@@ -117,6 +118,17 @@ MonoBehaviour:
   targetListPolicy: {fileID: 0}
   headsetColliding: 0
   collidingWith: {fileID: 0}
+--- !u!114 &114062463828427696
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1683983504509794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35468603b9fcc5b4ab902ee43e01a7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114157985896418222
 MonoBehaviour:
   m_ObjectHideFlags: 1

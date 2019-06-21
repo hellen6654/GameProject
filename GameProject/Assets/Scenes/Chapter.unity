@@ -691,7 +691,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -720,6 +720,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 52c682a4211013c4aacfa4f4c967bfbd, type: 3}
   m_IsPrefabParent: 0
+--- !u!1 &266445326 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1683983504509794, guid: 134ae0894cfa1bf42826f81f1d12d861,
+    type: 2}
+  m_PrefabInternal: {fileID: 564650312}
+--- !u!114 &266445331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266445326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35468603b9fcc5b4ab902ee43e01a7b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &301880920 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1175554915615622, guid: 9350d742aa0d0d543998c440f311ef8b,
@@ -1413,7 +1429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &532590520
 Prefab:
@@ -1598,7 +1614,8 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114062463828427696, guid: 134ae0894cfa1bf42826f81f1d12d861, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 134ae0894cfa1bf42826f81f1d12d861, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &567363786
@@ -1696,14 +1713,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableWhenIdle: 1
   touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
-  allowedTouchControllers: 0
+  allowedTouchControllers: 2
   ignoredColliders: []
   isGrabbable: 0
   holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
-  allowedGrabControllers: 0
+  allowedGrabControllers: 2
   grabAttachMechanicScript: {fileID: 0}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
@@ -1830,14 +1847,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableWhenIdle: 1
   touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
-  allowedTouchControllers: 0
+  allowedTouchControllers: 2
   ignoredColliders: []
   isGrabbable: 0
   holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
-  allowedGrabControllers: 0
+  allowedGrabControllers: 2
   grabAttachMechanicScript: {fileID: 0}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
@@ -1900,14 +1917,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableWhenIdle: 1
   touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
-  allowedTouchControllers: 0
+  allowedTouchControllers: 2
   ignoredColliders: []
   isGrabbable: 0
   holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
-  allowedGrabControllers: 0
+  allowedGrabControllers: 2
   grabAttachMechanicScript: {fileID: 0}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
@@ -3599,14 +3616,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableWhenIdle: 1
   touchHighlightColor: {r: 1, g: 1, b: 0, a: 0}
-  allowedTouchControllers: 0
+  allowedTouchControllers: 2
   ignoredColliders: []
   isGrabbable: 0
   holdButtonToGrab: 0
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
-  allowedGrabControllers: 0
+  allowedGrabControllers: 2
   grabAttachMechanicScript: {fileID: 0}
   secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
