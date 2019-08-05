@@ -8,7 +8,7 @@ ModelImporter:
     2100000: Material.004
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cylinder.011
+    4300000: Cylinder.023
   externalObjects:
   - first:
       type: UnityEngine:Material
