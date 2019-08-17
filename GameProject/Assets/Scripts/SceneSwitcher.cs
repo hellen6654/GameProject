@@ -1,17 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using VRTK;
 public class SceneSwitcher : MonoBehaviour
 {
     public int sceneIndex = 0;
-    public float delayTime = 0.0f;
+    public GameObject controller;
     private void Start()
     {
-        Invoke("GoScene",delayTime);
+        controller.GetComponent<VRTK_ControllerEvents>().TriggerUnclicked += new ControllerInteractionEventHandler(TriggerUnclickedChangeScene);
     }
-    public void GoScene()
+
+    private void TriggerUnclickedChangeScene(object sender, ControllerInteractionEventArgs e)
     {
         SceneManager.LoadScene(sceneIndex);
     }
