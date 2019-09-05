@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
+using UnityEngine.SceneManagement;
+
 public class FirstBookScrollText : MonoBehaviour {
     // Use this for initialization
     public float speed = 2; //速度
@@ -24,6 +26,12 @@ public class FirstBookScrollText : MonoBehaviour {
         {
             moveLen += Time.deltaTime * speed;
             GetComponent<RectTransform>().Translate(0, Time.deltaTime * speed, 0);
+            return;
         }
+        Invoke("switchScene", 2f);
+    }
+    void switchScene()
+    {
+        SceneManager.LoadScene("SecondBook");
     }
 }

@@ -244,7 +244,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 731093462}
+  m_Camera: {fileID: 959230039}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -406,11 +406,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 597704939}
---- !u!20 &731093462 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20497336122512118, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 959230024}
 --- !u!1001 &820261011
 Prefab:
   m_ObjectHideFlags: 0
@@ -575,6 +570,11 @@ GameObject:
   m_PrefabParentObject: {fileID: 1834450838144306, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
     type: 2}
   m_PrefabInternal: {fileID: 959230024}
+--- !u!20 &959230039 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20958219878860794, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 959230024}
 --- !u!1 &1122265587
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.000023084101}
+  m_AnchoredPosition: {x: 0, y: -0.000022084672}
   m_SizeDelta: {x: 400, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1122265589
@@ -642,7 +642,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u67D0\u5929\u65E9\u4E0A\uFF0C\n\n\u5728\u5831\u7D19\u4E0A\u770B\u898B\u4E86\n\n\u4E00\u500B\u719F\u6089\u7684\u540D\u5B57\u2014\u840A\u62C9\u3002\n\n\u9019\u662F\u767C\u751F\u5728\u706B\u8ECA\u4E0A\u7684\u547D\u6848\u3002\n\n\u840A\u62C9\u56E0\u70BA\u51FA\u5DEE\u800C\u642D\u4E0A\u9019\u73ED\u5217\u8ECA\uFF0C\n\n\u6C92\u60F3\u5230\u840A\u62C9\u6158\u906D\u4E0D\u6E2C\u3002\n\n\u5979\u6BCD\u89AA\u56E0\u70BA\u5973\u5152\u7684\u904E\u4E16\uFF0C\n\n\u8B93\u539F\u672C\u5DF2\u7D93\u75CA\u7652\u7684\u764C\u75C7\uFF0C\n\n\u518D\u5EA6\u5FA9\u767C\uFF0C\u5982\u4ECA\u81E5\u75C5\u5728\u5E8A\uFF0C\n\n\u81E8\u7D42\u524D\u7684\u6700\u5F8C\u4E00\u500B\u9858\u671B\uFF0C\n\n\u5E0C\u671B\u4F60\u80FD\u5C07\u5147\u624B\u7E69\u4E4B\u4EE5\u6CD5\uFF0C\n\n\u4F46\u5230\u5217\u8ECA\u4E0A\u8ABF\u67E5\u7684\u6642\u5019......\r\n"
+  m_Text: "\u67D0\u5929\u65E9\u4E0A\uFF0C\n\n\u5728\u5831\u7D19\u4E0A\u770B\u898B\u4E86\n\n\u4E00\u500B\u719F\u6089\u7684\u540D\u5B57\u2014\u840A\u62C9\u3002\n\n\u9019\u662F\u767C\u751F\u5728\u706B\u8ECA\u4E0A\u7684\u547D\u6848\u3002\n\n\u840A\u62C9\u56E0\u70BA\u51FA\u5DEE\u800C\u642D\u4E0A\u9019\u73ED\u5217\u8ECA\uFF0C\n\n\u6C92\u60F3\u5230\u840A\u62C9\u6158\u906D\u4E0D\u6E2C\u3002\n\n\u5979\u6BCD\u89AA\u56E0\u70BA\u5973\u5152\u7684\u904E\u4E16\uFF0C\n\n\u8B93\u539F\u672C\u5DF2\u7D93\u75CA\u7652\u7684\u764C\u75C7\uFF0C\n\n\u518D\u5EA6\u5FA9\u767C\uFF0C\u5982\u4ECA\u81E5\u75C5\u5728\u5E8A\uFF0C\n\n\u81E8\u7D42\u524D\u7684\u6700\u5F8C\u4E00\u500B\u9858\u671B\uFF0C\n\n\u5E0C\u671B\u80FD\u5C07\u5147\u624B\u7E69\u4E4B\u4EE5\u6CD5\uFF0C\n\n\u4F46\u5230\u5217\u8ECA\u4E0A\u8ABF\u67E5\u7684\u6642\u5019......\r\n"
 --- !u!222 &1122265590
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -695,7 +695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: -478}
   m_SizeDelta: {x: 600, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644095779
@@ -814,6 +814,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23799914841626022, guid: d0537167d4d53214d9b093296d5ff196,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4eac7d64f4e190e4abcaafbfb8892879, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0537167d4d53214d9b093296d5ff196, type: 2}
   m_IsPrefabParent: 0
