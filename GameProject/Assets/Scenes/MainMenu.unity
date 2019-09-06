@@ -1770,11 +1770,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!1 &314564437 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1612468814424252, guid: 9350d742aa0d0d543998c440f311ef8b,
-    type: 2}
-  m_PrefabInternal: {fileID: 972807675}
 --- !u!1 &320254106
 GameObject:
   m_ObjectHideFlags: 0
@@ -3972,6 +3967,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 700716916}
+--- !u!1 &708943833 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1897107308773906, guid: 66b4ad7cc9ca87c4185319f7dbc710e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 357055905}
 --- !u!1 &736240699
 GameObject:
   m_ObjectHideFlags: 0
@@ -4654,7 +4654,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!215 &800524228
 ReflectionProbe:
   m_ObjectHideFlags: 0
@@ -4700,11 +4700,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &808242415 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1175554915615622, guid: 9350d742aa0d0d543998c440f311ef8b,
-    type: 2}
-  m_PrefabInternal: {fileID: 972807675}
 --- !u!1001 &808747308
 Prefab:
   m_ObjectHideFlags: 0
@@ -5841,22 +5836,22 @@ Prefab:
         type: 2}
       propertyPath: scriptAliasLeftController
       value: 
-      objectReference: {fileID: 314564437}
+      objectReference: {fileID: 1062353269}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: scriptAliasRightController
       value: 
-      objectReference: {fileID: 808242415}
+      objectReference: {fileID: 708943833}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: setups.Array.data[0]
       value: 
-      objectReference: {fileID: 1959812117}
+      objectReference: {fileID: 237824155}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: setups.Array.data[1]
       value: 
-      objectReference: {fileID: 237824155}
+      objectReference: {fileID: 1959812117}
     - target: {fileID: 114255339184683164, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: actualBoundaries
@@ -6660,6 +6655,11 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1057873474}
+--- !u!1 &1062353269 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1441547878382872, guid: 66b4ad7cc9ca87c4185319f7dbc710e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 357055905}
 --- !u!1 &1089231844
 GameObject:
   m_ObjectHideFlags: 0

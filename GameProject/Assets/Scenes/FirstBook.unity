@@ -244,7 +244,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 959230039}
+  m_Camera: {fileID: 1488130073}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -521,22 +521,22 @@ Prefab:
         type: 2}
       propertyPath: scriptAliasRightController
       value: 
-      objectReference: {fileID: 1131097673}
+      objectReference: {fileID: 1806971943}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: scriptAliasLeftController
       value: 
-      objectReference: {fileID: 2091209257}
+      objectReference: {fileID: 1660965199}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: setups.Array.data[0]
       value: 
-      objectReference: {fileID: 1226876943}
+      objectReference: {fileID: 174321199}
     - target: {fileID: 114368344346778970, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
         type: 2}
       propertyPath: setups.Array.data[1]
       value: 
-      objectReference: {fileID: 174321199}
+      objectReference: {fileID: 1226876943}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 03c33d5289c729a4f96cb47e95a7c2b1, type: 2}
   m_IsPrefabParent: 0
@@ -568,11 +568,6 @@ GameObject:
 --- !u!1 &959230030 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1834450838144306, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 959230024}
---- !u!20 &959230039 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20958219878860794, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
     type: 2}
   m_PrefabInternal: {fileID: 959230024}
 --- !u!1 &1122265587
@@ -631,7 +626,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 25
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -660,6 +655,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 959230024}
   m_Script: {fileID: 11500000, guid: eeda6d41317f444b900e374895f14e95, type: 3}
+--- !u!20 &1488130073 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20497336122512118, guid: 03c33d5289c729a4f96cb47e95a7c2b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 959230024}
 --- !u!1 &1644095777
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,7 +774,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  goalLen: 100
+  goalLen: 120
+--- !u!1 &1660965199 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1441547878382872, guid: 66b4ad7cc9ca87c4185319f7dbc710e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 820261011}
 --- !u!1001 &1795136358
 Prefab:
   m_ObjectHideFlags: 0
@@ -864,6 +869,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneIndex: 1
   controller: {fileID: 1131097673}
+--- !u!1 &1806971943 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1897107308773906, guid: 66b4ad7cc9ca87c4185319f7dbc710e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 820261011}
 --- !u!1 &2062994911
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,8 +936,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2091209257 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1612468814424252, guid: 9350d742aa0d0d543998c440f311ef8b,
-    type: 2}
-  m_PrefabInternal: {fileID: 50433929}
