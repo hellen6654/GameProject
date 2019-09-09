@@ -1,20 +1,37 @@
 fileFormatVersion: 2
-guid: bcaf8a8d74753494aa11067b120ba034
+guid: 9f764c46dbd54ef40a5cfade8619494a
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Cube.005
+    100000: plate_01
+    100002: plate_02
+    100004: plate_03
+    100006: plate_04
+    100008: //RootNode
+    400000: plate_01
+    400002: plate_02
+    400004: plate_03
+    400006: plate_04
+    400008: //RootNode
+    2100000: 3iLleather White
+    2300000: plate_01
+    2300002: plate_02
+    2300004: plate_03
+    2300006: plate_04
+    3300000: plate_01
+    3300002: plate_02
+    3300004: plate_03
+    3300006: plate_04
+    4300000: plate_01
+    4300002: plate_02
+    4300004: plate_03
+    4300006: plate_04
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 9afa601922848d64d9fdbdfe4f74360a, type: 2}
+      name: 3iLleather White
+    second: {fileID: 2100000, guid: d9eb36ce766d5ce4fb2fe51574003ab8, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
