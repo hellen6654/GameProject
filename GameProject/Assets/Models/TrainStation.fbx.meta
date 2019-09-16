@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af8f8b521417e84468cd8101b572714a
+guid: a9a5356ade7f0d54f96e3bbaab5d7792
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,74 +8,144 @@ ModelImporter:
     100004: BeamColumns
     100006: Ceiling
     100008: ColumnBaseboard
-    100010: Columns
-    100012: Floor
-    100014: HandrailBase
-    100016: Handrails
-    100018: RailPlane
-    100020: Stairs
-    100022: Stairs2
-    100024: StairsWall
-    100026: //RootNode
-    100028: Wall
+    100010: ColumnBaseboard.001
+    100012: ColumnBaseboard.002
+    100014: ColumnBaseboard.003
+    100016: ColumnBaseboard.004
+    100018: ColumnBaseboard.005
+    100020: ColumnBaseboard.006
+    100022: ColumnBaseboard.007
+    100024: Columns
+    100026: Columns.001
+    100028: Columns.002
+    100030: Columns.003
+    100032: Columns.004
+    100034: Columns.005
+    100036: Columns.006
+    100038: Columns.007
+    100040: Floor
+    100042: HandrailBase
+    100044: Handrails
+    100046: RailPlane
+    100048: Stairs
+    100050: Stairs2
+    100052: StairsWall
+    100054: //RootNode
+    100056: Wall
     400000: Baseboard
     400002: Baseboard2
     400004: BeamColumns
     400006: Ceiling
     400008: ColumnBaseboard
-    400010: Columns
-    400012: Floor
-    400014: HandrailBase
-    400016: Handrails
-    400018: RailPlane
-    400020: Stairs
-    400022: Stairs2
-    400024: StairsWall
-    400026: //RootNode
-    400028: Wall
+    400010: ColumnBaseboard.001
+    400012: ColumnBaseboard.002
+    400014: ColumnBaseboard.003
+    400016: ColumnBaseboard.004
+    400018: ColumnBaseboard.005
+    400020: ColumnBaseboard.006
+    400022: ColumnBaseboard.007
+    400024: Columns
+    400026: Columns.001
+    400028: Columns.002
+    400030: Columns.003
+    400032: Columns.004
+    400034: Columns.005
+    400036: Columns.006
+    400038: Columns.007
+    400040: Floor
+    400042: HandrailBase
+    400044: Handrails
+    400046: RailPlane
+    400048: Stairs
+    400050: Stairs2
+    400052: StairsWall
+    400054: //RootNode
+    400056: Wall
     2100000: No Name
     2300000: Baseboard
     2300002: Baseboard2
     2300004: BeamColumns
     2300006: Ceiling
     2300008: ColumnBaseboard
-    2300010: Columns
-    2300012: Floor
-    2300014: HandrailBase
-    2300016: Handrails
-    2300018: RailPlane
-    2300020: Stairs
-    2300022: Stairs2
-    2300024: StairsWall
-    2300026: Wall
+    2300010: ColumnBaseboard.001
+    2300012: ColumnBaseboard.002
+    2300014: ColumnBaseboard.003
+    2300016: ColumnBaseboard.004
+    2300018: ColumnBaseboard.005
+    2300020: ColumnBaseboard.006
+    2300022: ColumnBaseboard.007
+    2300024: Columns
+    2300026: Columns.001
+    2300028: Columns.002
+    2300030: Columns.003
+    2300032: Columns.004
+    2300034: Columns.005
+    2300036: Columns.006
+    2300038: Columns.007
+    2300040: Floor
+    2300042: HandrailBase
+    2300044: Handrails
+    2300046: RailPlane
+    2300048: Stairs
+    2300050: Stairs2
+    2300052: StairsWall
+    2300054: Wall
     3300000: Baseboard
     3300002: Baseboard2
     3300004: BeamColumns
     3300006: Ceiling
     3300008: ColumnBaseboard
-    3300010: Columns
-    3300012: Floor
-    3300014: HandrailBase
-    3300016: Handrails
-    3300018: RailPlane
-    3300020: Stairs
-    3300022: Stairs2
-    3300024: StairsWall
-    3300026: Wall
-    4300000: HandrailBase
-    4300002: Handrails
-    4300004: BeamColumns
-    4300006: Ceiling
-    4300008: ColumnBaseboard
-    4300010: Baseboard2
-    4300012: Baseboard
-    4300014: Columns
-    4300016: StairsWall
-    4300018: Stairs2
-    4300020: Stairs
-    4300022: Wall
-    4300024: RailPlane
-    4300026: Floor
+    3300010: ColumnBaseboard.001
+    3300012: ColumnBaseboard.002
+    3300014: ColumnBaseboard.003
+    3300016: ColumnBaseboard.004
+    3300018: ColumnBaseboard.005
+    3300020: ColumnBaseboard.006
+    3300022: ColumnBaseboard.007
+    3300024: Columns
+    3300026: Columns.001
+    3300028: Columns.002
+    3300030: Columns.003
+    3300032: Columns.004
+    3300034: Columns.005
+    3300036: Columns.006
+    3300038: Columns.007
+    3300040: Floor
+    3300042: HandrailBase
+    3300044: Handrails
+    3300046: RailPlane
+    3300048: Stairs
+    3300050: Stairs2
+    3300052: StairsWall
+    3300054: Wall
+    4300000: Columns.007
+    4300002: ColumnBaseboard.007
+    4300004: ColumnBaseboard.006
+    4300006: Columns.006
+    4300008: Columns.005
+    4300010: ColumnBaseboard.005
+    4300012: ColumnBaseboard.004
+    4300014: Columns.004
+    4300016: Columns.003
+    4300018: ColumnBaseboard.003
+    4300020: ColumnBaseboard.002
+    4300022: Columns.002
+    4300024: Columns.001
+    4300026: ColumnBaseboard.001
+    4300028: HandrailBase
+    4300030: Handrails
+    4300032: BeamColumns
+    4300034: Ceiling
+    4300036: ColumnBaseboard
+    4300038: Baseboard2
+    4300040: Baseboard
+    4300042: Columns
+    4300044: StairsWall
+    4300046: Stairs2
+    4300048: Stairs
+    4300050: Wall
+    4300052: RailPlane
+    4300054: Floor
   externalObjects: {}
   materials:
     importMaterials: 1
