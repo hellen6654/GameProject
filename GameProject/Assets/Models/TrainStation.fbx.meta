@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a9a5356ade7f0d54f96e3bbaab5d7792
+guid: 32f5b5b9e87413b48b8dc9e20ad95a3f
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -31,7 +31,8 @@ ModelImporter:
     100050: Stairs2
     100052: StairsWall
     100054: //RootNode
-    100056: Wall
+    100056: UIWall
+    100058: Wall
     400000: Baseboard
     400002: Baseboard2
     400004: BeamColumns
@@ -60,7 +61,8 @@ ModelImporter:
     400050: Stairs2
     400052: StairsWall
     400054: //RootNode
-    400056: Wall
+    400056: UIWall
+    400058: Wall
     2100000: No Name
     2300000: Baseboard
     2300002: Baseboard2
@@ -89,7 +91,8 @@ ModelImporter:
     2300048: Stairs
     2300050: Stairs2
     2300052: StairsWall
-    2300054: Wall
+    2300054: UIWall
+    2300056: Wall
     3300000: Baseboard
     3300002: Baseboard2
     3300004: BeamColumns
@@ -117,35 +120,37 @@ ModelImporter:
     3300048: Stairs
     3300050: Stairs2
     3300052: StairsWall
-    3300054: Wall
-    4300000: Columns.007
-    4300002: ColumnBaseboard.007
-    4300004: ColumnBaseboard.006
-    4300006: Columns.006
-    4300008: Columns.005
-    4300010: ColumnBaseboard.005
-    4300012: ColumnBaseboard.004
-    4300014: Columns.004
-    4300016: Columns.003
-    4300018: ColumnBaseboard.003
-    4300020: ColumnBaseboard.002
-    4300022: Columns.002
-    4300024: Columns.001
-    4300026: ColumnBaseboard.001
-    4300028: HandrailBase
-    4300030: Handrails
-    4300032: BeamColumns
-    4300034: Ceiling
-    4300036: ColumnBaseboard
-    4300038: Baseboard2
-    4300040: Baseboard
-    4300042: Columns
-    4300044: StairsWall
-    4300046: Stairs2
-    4300048: Stairs
-    4300050: Wall
-    4300052: RailPlane
-    4300054: Floor
+    3300054: UIWall
+    3300056: Wall
+    4300000: UIWall
+    4300002: Columns.007
+    4300004: ColumnBaseboard.007
+    4300006: ColumnBaseboard.006
+    4300008: Columns.006
+    4300010: Columns.005
+    4300012: ColumnBaseboard.005
+    4300014: ColumnBaseboard.004
+    4300016: Columns.004
+    4300018: Columns.003
+    4300020: ColumnBaseboard.003
+    4300022: ColumnBaseboard.002
+    4300024: Columns.002
+    4300026: Columns.001
+    4300028: ColumnBaseboard.001
+    4300030: HandrailBase
+    4300032: Handrails
+    4300034: BeamColumns
+    4300036: Ceiling
+    4300038: ColumnBaseboard
+    4300040: Baseboard2
+    4300042: Baseboard
+    4300044: Columns
+    4300046: StairsWall
+    4300048: Stairs2
+    4300050: Stairs
+    4300052: Wall
+    4300054: RailPlane
+    4300056: Floor
   externalObjects: {}
   materials:
     importMaterials: 1
