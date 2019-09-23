@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: 70d69b539ab553e4c85063de9cab68a8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box003
+    100004: Camera001
+    100006: Camera001.Target
+    100008: Camera002
+    100010: Camera002.Target
+    100012: Camera003
+    100014: Camera003.Target
+    100016: //RootNode
+    100018: Cylinder048
+    100020: Cylinder049
+    100022: Cylinder050
+    100024: Cylinder051
+    100026: ikea_kubbis_gantungan_dengan_pengait
+    100028: ikea_kubbis_gantungan_dengan_pengait001
+    100030: Line001
+    100032: Line002
+    100034: Line003
+    100036: Line004
+    100038: Line005
+    100040: Line006
+    100042: Line007
+    100044: Line008
+    100046: Line009
+    100048: Line010
+    100050: Line011
+    100052: Line012
+    100054: Line013
+    100056: Line014
+    100058: VRayLight001
+    100060: VRayLight002
+    400000: Box002
+    400002: Box003
+    400004: Camera001
+    400006: Camera001.Target
+    400008: Camera002
+    400010: Camera002.Target
+    400012: Camera003
+    400014: Camera003.Target
+    400016: //RootNode
+    400018: Cylinder048
+    400020: Cylinder049
+    400022: Cylinder050
+    400024: Cylinder051
+    400026: ikea_kubbis_gantungan_dengan_pengait
+    400028: ikea_kubbis_gantungan_dengan_pengait001
+    400030: Line001
+    400032: Line002
+    400034: Line003
+    400036: Line004
+    400038: Line005
+    400040: Line006
+    400042: Line007
+    400044: Line008
+    400046: Line009
+    400048: Line010
+    400050: Line011
+    400052: Line012
+    400054: Line013
+    400056: Line014
+    400058: VRayLight001
+    400060: VRayLight002
+    2100000: 'Material #24'
+    2100002: black
+    2100004: white
+    2300000: Box002
+    2300002: Box003
+    2300004: Cylinder048
+    2300006: Cylinder049
+    2300008: Cylinder050
+    2300010: Cylinder051
+    2300012: Line001
+    2300014: Line002
+    2300016: Line003
+    2300018: Line004
+    2300020: Line005
+    2300022: Line006
+    2300024: Line007
+    2300026: Line008
+    2300028: Line009
+    2300030: Line010
+    2300032: Line011
+    2300034: Line012
+    2300036: Line013
+    2300038: Line014
+    3300000: Box002
+    3300002: Box003
+    3300004: Cylinder048
+    3300006: Cylinder049
+    3300008: Cylinder050
+    3300010: Cylinder051
+    3300012: Line001
+    3300014: Line002
+    3300016: Line003
+    3300018: Line004
+    3300020: Line005
+    3300022: Line006
+    3300024: Line007
+    3300026: Line008
+    3300028: Line009
+    3300030: Line010
+    3300032: Line011
+    3300034: Line012
+    3300036: Line013
+    3300038: Line014
+    4300000: Cylinder048
+    4300002: Cylinder049
+    4300004: Line001
+    4300006: Line002
+    4300008: Line003
+    4300010: Line004
+    4300012: Line005
+    4300014: Line006
+    4300016: Line007
+    4300018: Box002
+    4300020: Box003
+    4300022: Cylinder050
+    4300024: Cylinder051
+    4300026: Line008
+    4300028: Line009
+    4300030: Line010
+    4300032: Line011
+    4300034: Line012
+    4300036: Line013
+    4300038: Line014
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
