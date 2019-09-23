@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MainScencVenderMechine : MonoBehaviour {
-    public GameObject canvas;
-	// Use this for initialization
-	void Start () {
+    public GameObject floor;
+    public GameObject wall;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -18,8 +19,9 @@ public class MainScencVenderMechine : MonoBehaviour {
         Debug.Log("collision!!" + other.name);
         if (other.name == "ticket")
         {
-            canvas.SetActive(true);
-            Debug.Log("canvas appear!!");
+            floor.SetActive(true);
+            wall.SetActive(false);
+            Debug.Log("floor appear!!");
         }
     }
 }
