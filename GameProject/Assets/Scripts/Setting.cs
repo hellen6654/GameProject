@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Setting: MonoBehaviour {
     static public float BGMVolume = 0.5f;       //BGM音量預設50%
     static public float EffectVolume = 0.5f;    //音效音量預設50%
-    static public float Gramma = 0.01f;         //亮度預設1%
+    static public float Gramma = 0.5f;         //亮度預設1%
     static public bool isVive = false;          //是否使用模擬器
     static public bool isBook1Finish = false;   //是否第一本書已經看過
     static public bool isBook2Finish = false;   //是否第二本書已經看過
@@ -14,7 +14,7 @@ public class Setting: MonoBehaviour {
     private AudioSource BGMAudioSource;
     private GameObject[] effectAudioSource;
     private GameObject livingCamera;
-    private float GrammaOffset=0.1f;
+    private float GrammaOffset=0.3f;
     public void BGMVolumeChanged(float v)
     {
         BGMAudioSource = GameObject.FindGameObjectWithTag("BGM").GetComponent<AudioSource>(); 
@@ -35,7 +35,7 @@ public class Setting: MonoBehaviour {
     public void GrammaChanged(float v)
     {
         Debug.Log("Gramma:" + v.ToString() + '+' + GrammaOffset.ToString());
-        Gramma = v + GrammaOffset;
+        Gramma =  v + GrammaOffset;
         livingCamera = GameObject.FindGameObjectWithTag("MainCamera");
         livingCamera.GetComponent<ColorAdjustEffect>().brightness = Gramma; 
         //把攝影機底下的ColorAdjustEffect的亮度改成Gramma
