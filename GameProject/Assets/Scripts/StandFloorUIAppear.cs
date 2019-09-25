@@ -18,21 +18,21 @@ public class StandFloorUIAppear : MonoBehaviour {
         //{
         //    Debug.Log(camera.transform.position.ToString());
         //}
-       
-        if (floor.active&&camera.transform.position.x < 2 && camera.transform.position.x > -2 &&
-            camera.transform.position.z < 2 && camera.transform.position.z > -3)
+
+        if (floor.active && camera.transform.position.x < 2 && camera.transform.position.x > -2 &&
+            camera.transform.position.z < 0 && camera.transform.position.z > -3)
         {
-            canvas.GetComponent<CanvasGroup>().alpha=1;
+            canvas.GetComponent<CanvasGroup>().alpha = 1;
             canvas.GetComponent<CanvasGroup>().interactable = true;
             canvas.GetComponent<CanvasGroup>().blocksRaycasts = true;
         }
         else
         {
             canvas.GetComponent<CanvasGroup>().alpha = 0;
-            canvas.GetComponent<CanvasGroup>().interactable =false;
+            canvas.GetComponent<CanvasGroup>().interactable = false;
             canvas.GetComponent<CanvasGroup>().blocksRaycasts = false;
         }
-        
+
 
     }
 }
