@@ -16,7 +16,8 @@ public class PackageItem : MonoBehaviour
     {
         TimerCallback callback = new TimerCallback(AddCounter);
         Timer timer = new Timer(callback, null, 250, 500);
-        //gameObject.AddComponent<BoxCollider>();
+        gameObject.AddComponent<BoxCollider>();
+        GetComponent<BoxCollider>().isTrigger = true;
     }
 
     private void AddCounter(object state)
