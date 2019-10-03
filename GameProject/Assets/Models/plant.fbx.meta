@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: f42d584eecb9fab408db5e2fd538bdfd
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cylinder
+    100002: FLOWER POT
+    100004: FLOWER POT.001
+    100006: Lamp
+    100008: Lamp.001
+    100010: LEAF ONE
+    100012: LEAF ONE.001
+    100014: LEAF ONE.002
+    100016: LEAF ONE.003
+    100018: LEAF ONE.004
+    100020: LEAF ONE.005
+    100022: LEAF ONE.006
+    100024: LEAF ONE.007
+    100026: LEAF ONE.008
+    100028: LEAF ONE.009
+    100030: LEAF ONE.010
+    100032: LEAF ONE.011
+    100034: LEAF ONE.012
+    100036: LEAF ONE.013
+    100038: LEAF ONE.014
+    100040: LEAF ONE.015
+    100042: LEAF ONE.016
+    100044: LEAF ONE.017
+    100046: LEAF ONE.018
+    100048: LEAF TWO
+    100050: LEAF TWO.001
+    100052: LEAF TWO.002
+    100054: LEAF TWO.003
+    100056: LEAF TWO.004
+    100058: LEAF TWO.005
+    100060: LEAF TWO.006
+    100062: LEAF TWO.007
+    100064: LEAF TWO.008
+    100066: LEAF TWO.009
+    100068: LEAF TWO.010
+    100070: LEAF TWO.011
+    100072: LEAF TWO.012
+    100074: LEAF TWO.013
+    100076: LEAF TWO.014
+    100078: LEAF TWO.015
+    100080: LEAF TWO.016
+    100082: LEAF TWO.017
+    100084: LEAF TWO.018
+    100086: LEAF TWO.019
+    100088: LEAF TWO.020
+    100090: LEAF TWO.021
+    100092: LEAF TWO.022
+    100094: LEAF TWO.023
+    100096: //RootNode
+    100098: WATER CATCH
+    400000: Cylinder
+    400002: FLOWER POT
+    400004: FLOWER POT.001
+    400006: Lamp
+    400008: Lamp.001
+    400010: LEAF ONE
+    400012: LEAF ONE.001
+    400014: LEAF ONE.002
+    400016: LEAF ONE.003
+    400018: LEAF ONE.004
+    400020: LEAF ONE.005
+    400022: LEAF ONE.006
+    400024: LEAF ONE.007
+    400026: LEAF ONE.008
+    400028: LEAF ONE.009
+    400030: LEAF ONE.010
+    400032: LEAF ONE.011
+    400034: LEAF ONE.012
+    400036: LEAF ONE.013
+    400038: LEAF ONE.014
+    400040: LEAF ONE.015
+    400042: LEAF ONE.016
+    400044: LEAF ONE.017
+    400046: LEAF ONE.018
+    400048: LEAF TWO
+    400050: LEAF TWO.001
+    400052: LEAF TWO.002
+    400054: LEAF TWO.003
+    400056: LEAF TWO.004
+    400058: LEAF TWO.005
+    400060: LEAF TWO.006
+    400062: LEAF TWO.007
+    400064: LEAF TWO.008
+    400066: LEAF TWO.009
+    400068: LEAF TWO.010
+    400070: LEAF TWO.011
+    400072: LEAF TWO.012
+    400074: LEAF TWO.013
+    400076: LEAF TWO.014
+    400078: LEAF TWO.015
+    400080: LEAF TWO.016
+    400082: LEAF TWO.017
+    400084: LEAF TWO.018
+    400086: LEAF TWO.019
+    400088: LEAF TWO.020
+    400090: LEAF TWO.021
+    400092: LEAF TWO.022
+    400094: LEAF TWO.023
+    400096: //RootNode
+    400098: WATER CATCH
+    2100000: FLOWER POT
+    2100002: STEM
+    2100004: LEAF TWO
+    2100006: LEAF ONE
+    2100008: DIRT
+    2300000: Cylinder
+    2300002: FLOWER POT
+    2300004: FLOWER POT.001
+    2300006: LEAF ONE
+    2300008: LEAF ONE.001
+    2300010: LEAF ONE.002
+    2300012: LEAF ONE.003
+    2300014: LEAF ONE.004
+    2300016: LEAF ONE.005
+    2300018: LEAF ONE.006
+    2300020: LEAF ONE.007
+    2300022: LEAF ONE.008
+    2300024: LEAF ONE.009
+    2300026: LEAF ONE.010
+    2300028: LEAF ONE.011
+    2300030: LEAF ONE.012
+    2300032: LEAF ONE.013
+    2300034: LEAF ONE.014
+    2300036: LEAF ONE.015
+    2300038: LEAF ONE.016
+    2300040: LEAF ONE.017
+    2300042: LEAF ONE.018
+    2300044: LEAF TWO
+    2300046: LEAF TWO.001
+    2300048: LEAF TWO.002
+    2300050: LEAF TWO.003
+    2300052: LEAF TWO.004
+    2300054: LEAF TWO.005
+    2300056: LEAF TWO.006
+    2300058: LEAF TWO.007
+    2300060: LEAF TWO.008
+    2300062: LEAF TWO.009
+    2300064: LEAF TWO.010
+    2300066: LEAF TWO.011
+    2300068: LEAF TWO.012
+    2300070: LEAF TWO.013
+    2300072: LEAF TWO.014
+    2300074: LEAF TWO.015
+    2300076: LEAF TWO.016
+    2300078: LEAF TWO.017
+    2300080: LEAF TWO.018
+    2300082: LEAF TWO.019
+    2300084: LEAF TWO.020
+    2300086: LEAF TWO.021
+    2300088: LEAF TWO.022
+    2300090: LEAF TWO.023
+    2300092: WATER CATCH
+    3300000: Cylinder
+    3300002: FLOWER POT
+    3300004: FLOWER POT.001
+    3300006: LEAF ONE
+    3300008: LEAF ONE.001
+    3300010: LEAF ONE.002
+    3300012: LEAF ONE.003
+    3300014: LEAF ONE.004
+    3300016: LEAF ONE.005
+    3300018: LEAF ONE.006
+    3300020: LEAF ONE.007
+    3300022: LEAF ONE.008
+    3300024: LEAF ONE.009
+    3300026: LEAF ONE.010
+    3300028: LEAF ONE.011
+    3300030: LEAF ONE.012
+    3300032: LEAF ONE.013
+    3300034: LEAF ONE.014
+    3300036: LEAF ONE.015
+    3300038: LEAF ONE.016
+    3300040: LEAF ONE.017
+    3300042: LEAF ONE.018
+    3300044: LEAF TWO
+    3300046: LEAF TWO.001
+    3300048: LEAF TWO.002
+    3300050: LEAF TWO.003
+    3300052: LEAF TWO.004
+    3300054: LEAF TWO.005
+    3300056: LEAF TWO.006
+    3300058: LEAF TWO.007
+    3300060: LEAF TWO.008
+    3300062: LEAF TWO.009
+    3300064: LEAF TWO.010
+    3300066: LEAF TWO.011
+    3300068: LEAF TWO.012
+    3300070: LEAF TWO.013
+    3300072: LEAF TWO.014
+    3300074: LEAF TWO.015
+    3300076: LEAF TWO.016
+    3300078: LEAF TWO.017
+    3300080: LEAF TWO.018
+    3300082: LEAF TWO.019
+    3300084: LEAF TWO.020
+    3300086: LEAF TWO.021
+    3300088: LEAF TWO.022
+    3300090: LEAF TWO.023
+    3300092: WATER CATCH
+    4300000: FLOWER POT
+    4300002: Cylinder
+    4300004: LEAF TWO.023
+    4300006: LEAF TWO.022
+    4300008: LEAF TWO.021
+    4300010: LEAF TWO.020
+    4300012: LEAF TWO.019
+    4300014: LEAF TWO.018
+    4300016: LEAF TWO.017
+    4300018: LEAF ONE.018
+    4300020: LEAF ONE.017
+    4300022: LEAF ONE.016
+    4300024: LEAF ONE.015
+    4300026: LEAF ONE.014
+    4300028: LEAF ONE.013
+    4300030: LEAF TWO.016
+    4300032: LEAF TWO.015
+    4300034: LEAF TWO.014
+    4300036: LEAF TWO.013
+    4300038: LEAF TWO.012
+    4300040: LEAF TWO.011
+    4300042: LEAF TWO.010
+    4300044: LEAF TWO.009
+    4300046: LEAF TWO.008
+    4300048: LEAF TWO.007
+    4300050: LEAF TWO.006
+    4300052: LEAF TWO.005
+    4300054: LEAF TWO.004
+    4300056: LEAF TWO.003
+    4300058: LEAF TWO.002
+    4300060: LEAF TWO.001
+    4300062: LEAF ONE.012
+    4300064: LEAF ONE.011
+    4300066: LEAF ONE.010
+    4300068: LEAF ONE.009
+    4300070: LEAF ONE.008
+    4300072: LEAF ONE.007
+    4300074: LEAF ONE.006
+    4300076: LEAF ONE.005
+    4300078: LEAF ONE.004
+    4300080: LEAF ONE.003
+    4300082: LEAF ONE.002
+    4300084: LEAF ONE.001
+    4300086: LEAF TWO
+    4300088: LEAF ONE
+    4300090: FLOWER POT.001
+    4300092: WATER CATCH
+    10800000: Lamp
+    10800002: Lamp.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DIRT
+    second: {fileID: 2100000, guid: c07c298e376655a44adbc93405caded3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FLOWER POT
+    second: {instanceID: 0}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
