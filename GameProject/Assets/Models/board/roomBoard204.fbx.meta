@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b5a96b77d857141469e4d5b899eb07a8
+guid: 6bc281600dd00074dbc0c4c2bfe28944
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,7 +8,7 @@ ModelImporter:
     2100000: Material.004
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube.007
+    4300000: Cube.016
   externalObjects:
   - first:
       type: UnityEngine:Material
