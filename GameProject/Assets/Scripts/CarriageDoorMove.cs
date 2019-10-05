@@ -1,8 +1,9 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class ChangeLockLED : MonoBehaviour
-{
-    public GameObject Card;
+public class CarriageDoorMove : MonoBehaviour {
+    public GameObject[] Card;
     public GameObject Door;
     public AudioSource BeeSound;
     public AudioSource MoveSound;
@@ -19,7 +20,7 @@ public class ChangeLockLED : MonoBehaviour
     void Start()
     {
         GetComponentInChildren<Light>().color = new Color(1, 0, 0);
-        OpenedPos = new Vector3(Door.transform.position.x + moveDistance * DoorMoveDirect, Door.transform.position.y, Door.transform.position.z);
+        OpenedPos = new Vector3(Door.transform.position.x , Door.transform.position.y, Door.transform.position.z + moveDistance);
         ClosedPos = Door.transform.position;
     }
 
@@ -28,14 +29,14 @@ public class ChangeLockLED : MonoBehaviour
     {
         if (isDoorShouldOpen)
         {
-            if (Door.transform.position.x - OpenedPos.x > 0)
+            if (Door.transform.position.z - OpenedPos.z * -1 > 0)
             {
-                Door.transform.position = new Vector3(Door.transform.position.x+ Time.deltaTime*0.5f * DoorMoveDirect, Door.transform.position.y, Door.transform.position.z );
+                Door.transform.position = new Vector3(Door.transform.position.x , Door.transform.position.y, Door.transform.position.z + Time.deltaTime * 0.5f * DoorMoveDirect);
                 isDoorMoving = true;
-                
+
                 if (!MoveSound.isPlaying && BeeSound.isPlaying)
                 {
-                    MoveSound.PlayDelayed(0.2f);     
+                    MoveSound.PlayDelayed(0.2f);
                 }
             }
             else
@@ -51,9 +52,9 @@ public class ChangeLockLED : MonoBehaviour
         }
         else if (isDoorShouldClose)
         {
-            if (ClosedPos.x - Door.transform.position.x > 0)
+            if (ClosedPos.z - Door.transform.position.z > 0)
             {
-                Door.transform.position = new Vector3(Door.transform.position.x+ Time.deltaTime*0.5f, Door.transform.position.y, Door.transform.position.z );
+                Door.transform.position = new Vector3(Door.transform.position.x , Door.transform.position.y, Door.transform.position.z + Time.deltaTime * 0.5f);
                 if (!MoveSound.isPlaying)
                 {
                     MoveSound.Play();
@@ -75,10 +76,11 @@ public class ChangeLockLED : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Enter");
-        Debug.Log("collision!!" + other.gameObject.name);
-        if (other.name == Card.name)
+        Debug.Log("collision!!" + other.name);
+        List<GameObject> cardList = new List<GameObject>(Card);
+        if (IsInList(other.name,cardList))
         {
-            Debug.Log(Card.name);
+            //Debug.Log(Card.name);
             GetComponentInChildren<Light>().color = new Color(0, 1, 0);
             if (!BeeSound.isPlaying)
             {
@@ -97,5 +99,17 @@ public class ChangeLockLED : MonoBehaviour
     private void SetCloseDoor()
     {
         isDoorShouldClose = true;
+    }
+
+    private bool IsInList(string name,List<GameObject> list)
+    {
+        foreach (var item in list)
+        {
+            if (item.name == name)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
