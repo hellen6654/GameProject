@@ -9,27 +9,20 @@ public class TolietDoorMoveSound : MonoBehaviour
     void Start()
     {
         GetComponent<VRTK_InteractableObject>().InteractableObjectGrabbed += TolietDoorMoveSound_InteractableObjectGrabbed;
-        GetComponent<VRTK_InteractableObject>().InteractableObjectUngrabbed += TolietDoorMoveSound_InteractableObjectUngrabbed;
-        
-    }
-
-    private void TolietDoorMoveSound_InteractableObjectUngrabbed(object sender, InteractableObjectEventArgs e)
-    {
-        isGrabed = false;
     }
 
     private void TolietDoorMoveSound_InteractableObjectGrabbed(object sender, InteractableObjectEventArgs e)
     {
-        z = transform.rotation.z;
         isGrabed = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isGrabed && !openDoorSource.isPlaying && transform.rotation.z != z)
+        if (isGrabed)
         {
             openDoorSource.Play();
+            isGrabed = false;
         }
         else
         {
