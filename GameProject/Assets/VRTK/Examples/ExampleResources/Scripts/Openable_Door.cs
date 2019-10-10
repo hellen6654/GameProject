@@ -4,6 +4,7 @@
 
     public class Openable_Door : VRTK_InteractableObject
     {
+        public AudioSource a;
         public bool flipped = false;
         public bool rotated = false;
 
@@ -22,6 +23,7 @@
             SetDoorRotation(usingObject.transform.position);
             SetRotation();
             open = !open;
+            a.Play();
         }
 
         protected void Start()
