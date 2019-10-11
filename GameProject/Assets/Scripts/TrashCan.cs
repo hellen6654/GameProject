@@ -2,10 +2,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using VRTK;
+using UnityEngine.SceneManagement;
 public class TrashCan : MonoBehaviour
 {
+    public AudioSource a;
     public GameObject[] paper;
-    private List<bool> IsTouch = new List<bool>() { false, false, false };
+    private bool change = false;
+    
     private int number = 0;
     // Use this for initialization
     void Start()
@@ -14,8 +17,8 @@ public class TrashCan : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(IsInList(collision.gameObject.name));
-        if (IsInList(collision.gameObject.name))
+        Debug.Log("colllllision");
+        if (IsInList(collision.gameObject.tag))
         {
             collision.gameObject.SetActive(false);
             number++;
@@ -25,36 +28,33 @@ public class TrashCan : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(CountTrueAmount());
-        GetComponentInChildren<VRTK_ObjectTooltip>().displayText = CountTrueAmount().ToString() + " / " + paper.Length.ToString();
-        GetComponentInChildren<Text>().text = CountTrueAmount().ToString() + " / " + paper.Length.ToString();
+        Debug.Log(number);
+        GetComponentInChildren<VRTK_ObjectTooltip>().displayText = number.ToString() + " / " + paper.Length.ToString();
+        GetComponentInChildren<Text>().text = number.ToString() + " / " + paper.Length.ToString();
+        if (number == 3)
+        {
+            if (!change)
+            {
+                Invoke("changeScence", 3f);
+            }
+            a.volume = a.volume * 0.3f;
+        }
         
     }
-    private bool IsInList(string name)
+    private bool IsInList(string tag)
     {
-        int counter = 0;
         foreach (var item in paper)
-        {
-            counter++;
-            if (item.name == name)
+        {       
+            if (item.tag == tag)
             {
-                IsTouch[counter] = true;
+                Debug.Log(item.tag + " / " + tag);
                 return true;
             }
         }
         return false;
     }
-
-    private int CountTrueAmount()
+    private void changeScence()
     {
-        int result = 0;
-        foreach (var item in IsTouch)
-        {
-            if (item)
-            {
-                result++;
-            }
-        }
-        return result;
+        SceneManager.LoadScene("LastBook");
     }
 }

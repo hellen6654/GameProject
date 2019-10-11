@@ -33,7 +33,6 @@ public class CarriageDoorMove : MonoBehaviour {
             {
                 Door.transform.position = new Vector3(Door.transform.position.x , Door.transform.position.y, Door.transform.position.z + Time.deltaTime * 0.5f * DoorMoveDirect);
                 isDoorMoving = true;
-
                 if (!MoveSound.isPlaying && BeeSound.isPlaying)
                 {
                     MoveSound.PlayDelayed(0.2f);
@@ -80,7 +79,6 @@ public class CarriageDoorMove : MonoBehaviour {
         List<GameObject> cardList = new List<GameObject>(Card);
         if (IsInList(other.name,cardList))
         {
-            //Debug.Log(Card.name);
             GetComponentInChildren<Light>().color = new Color(0, 1, 0);
             if (!BeeSound.isPlaying)
             {
