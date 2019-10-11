@@ -1,7 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System.Threading;
 using UnityEngine.SceneManagement;
 
 public class FirstBookScrollText : MonoBehaviour
@@ -18,13 +16,14 @@ public class FirstBookScrollText : MonoBehaviour
     float timeSoFar = 0;
     bool fading = false;
     int isRollFinishFlag = 0;
+    public bool isLast = false;
     private void Start()
     {
         canvasGroup = this.GetComponent<CanvasGroup>();
     }
     void Update()
     {
-        if (isRollFinishFlag==0)
+        if (isRollFinishFlag == 0)
         {
             Move();
         }
@@ -34,7 +33,7 @@ public class FirstBookScrollText : MonoBehaviour
             Invoke("SwitchScene", changeTimeSeconds);
             isRollFinishFlag++;
         }
-        
+
     }
     void Move()
     {
@@ -53,7 +52,21 @@ public class FirstBookScrollText : MonoBehaviour
     }
     void SwitchScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        if (isLast)
+        {
+            Debug.Log("GGGGGG");
+#if UNITY_EDITOR // 如果是編輯模式 退出遊玩
+            UnityEditor.EditorApplication.isPlaying = false;
+#else //如果是遊玩模式 關閉程式
+                    Application.Quit();
+#endif
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+            
+        }
+
     }
     public void FadeOut()
     {
