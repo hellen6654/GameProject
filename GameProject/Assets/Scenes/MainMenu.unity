@@ -3715,7 +3715,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 689662384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e348a4df1f282ed45ae714a3c45c293b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a0c9dac03c1bd4409d99e9a44326ba9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 1099256639}
@@ -3802,10 +3802,70 @@ GameObject:
   m_PrefabParentObject: {fileID: 1897107308773906, guid: 66b4ad7cc9ca87c4185319f7dbc710e9,
     type: 2}
   m_PrefabInternal: {fileID: 357055905}
+--- !u!114 &708943840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 708943833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947b27445602ed640b885db7e667dfc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabButton: 7
+  grabPrecognition: 0
+  throwMultiplier: 1
+  createRigidBodyWhenNotTouching: 0
+  controllerAttachPoint: {fileID: 0}
+  controllerEvents: {fileID: 0}
+  interactTouch: {fileID: 0}
 --- !u!4 &714103278 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 01a34b9a6216b304fb12231e60bb1cf4, type: 3}
   m_PrefabInternal: {fileID: 62169108}
+--- !u!1 &723493681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 723493682}
+  - component: {fileID: 723493683}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &723493682
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723493681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.0027, y: -0.0472, z: -0.0648}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1956684082}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723493683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 723493681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 393a6cb30fae3e841bd85dca765098f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  sdkOverrides: []
 --- !u!1 &731424775 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100028, guid: 32f5b5b9e87413b48b8dc9e20ad95a3f, type: 3}
@@ -11684,6 +11744,10 @@ MeshCollider:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 479e4661fbc34c84481eaba83126d4bb, type: 3}
   m_PrefabInternal: {fileID: 1807894354}
+--- !u!4 &1956684082 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 479e4661fbc34c84481eaba83126d4bb, type: 3}
+  m_PrefabInternal: {fileID: 1807894354}
 --- !u!114 &1956684083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11696,8 +11760,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
+  rightSnapHandle: {fileID: 723493682}
+  leftSnapHandle: {fileID: 723493682}
   throwVelocityWithAttachDistance: 0
   throwMultiplier: 1
   onGrabCollisionDelay: 0

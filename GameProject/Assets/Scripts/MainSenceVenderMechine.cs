@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using VRTK;
-public class MainScencVenderMechine : MonoBehaviour
+public class MainSenceVenderMechine : MonoBehaviour
 {
     public GameObject floor;
     public GameObject wall;
