@@ -10,6 +10,9 @@ TagManager:
   - CanTeleport
   - Controller(Sim)
   - Controller(Vive)
+  - paper
+  - paper2
+  - paper3
   layers:
   - Default
   - TransparentFX
