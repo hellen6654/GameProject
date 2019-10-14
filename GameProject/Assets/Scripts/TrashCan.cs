@@ -5,10 +5,10 @@ using VRTK;
 using UnityEngine.SceneManagement;
 public class TrashCan : MonoBehaviour
 {
-    public AudioSource a;
+    public AudioSource audio;
     public GameObject[] paper;
     private bool change = false;
-    
+    public GameObject Card;
     private int number = 0;
     // Use this for initialization
     void Start()
@@ -35,9 +35,9 @@ public class TrashCan : MonoBehaviour
         {
             if (!change)
             {
-                Invoke("changeScence", 3f);
+                Card.SetActive(true);
             }
-            a.volume = a.volume * 0.3f;
+            audio.volume = audio.volume * 0.3f;
         }
         
     }
